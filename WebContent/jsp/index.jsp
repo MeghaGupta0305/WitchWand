@@ -112,7 +112,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="social_icons wow bounceInRight" data-wow-delay="0.4s">
 					<ul>
 						<li class="icon-top blue-text">
-						<a href="#"><img src="${images}/logo-fb.png" alt="" style="width: 22px;height: 20px;,display:inline-block;"></a>
+						<a href="https://www.facebook.com/witchwand/?fref=ts"><img src="${images}/logo-fb.png" alt="" style="width: 22px;height: 20px;,display:inline-block;"></a>
 						<a href="#"><img src="${images}/logo-instagram.png" alt="" style="width: 26px;height: 26px;,display:inline-block;"></a>
 						<a href="#"><img src="${images}/logo-pinterest.png" alt="" style="width: 25px;height: 24px;,display:inline-block;"></a>
 						<a href="#"><img src="${images}/logo-twitter.png" alt="" style="width: 24px;height: 21px;,display:inline-block;"></a>
@@ -450,7 +450,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		    <!--//end-bottom-section--> 
 			<!--/start-blog-section-->
 			<div id="blog" class="blog-section">
-				<div class="container">
+				<%-- <div class="container">
 				<h3>OUR BLOGGY</h3>
 					<div class="blog-grids">
 						<div class="col-md-8 blog-left">
@@ -501,7 +501,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 					 <div class="clearfix"> </div>
 				</div>
-			</div>
+			</div> --%>
 		</div>
 			<!--/start-footer-section-->
 			<div id="about"  class="footer-section">
@@ -622,7 +622,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="icon-top green-text" >
 								<img  src="${images}/email-icon.png" alt="" style="width: 47px;height: 42px;">
 							</div>
-							<a style="color: #a8a8a8;" href="mailto:contact@site.com" > alliance@witchwand.com</a>
+							<a style="color: #a8a8a8;" href="mailto:contact@site.com" > info@witchwand.com</a>
 						</div>
 						<div class="col-md-3 company-details">
 							<div class="icon-top blue-text">
