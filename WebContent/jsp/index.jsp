@@ -101,7 +101,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<li><a href="services">Services</a></li>
 							</ul> -->
 						</li>
-					<li><a href="#blog" class="scroll">Blog</a></li>
+					<!-- <li><a href="#blog" class="scroll">Blog</a></li> -->
 					<li><a href="contact">Contact</a></li>
 					<li><a href="shopNow">Shop now</a>
 
@@ -113,10 +113,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<ul>
 						<li class="icon-top blue-text">
 						<a href="https://www.facebook.com/witchwand/?fref=ts"><img src="${images}/logo-fb.png" alt="" style="width: 22px;height: 20px;,display:inline-block;"></a>
-						<a href="#"><img src="${images}/logo-instagram.png" alt="" style="width: 26px;height: 26px;,display:inline-block;"></a>
+						<%-- <a href="#"><img src="${images}/logo-instagram.png" alt="" style="width: 26px;height: 26px;,display:inline-block;"></a> --%>
 						<a href="#"><img src="${images}/logo-pinterest.png" alt="" style="width: 25px;height: 24px;,display:inline-block;"></a>
 						<a href="#"><img src="${images}/logo-twitter.png" alt="" style="width: 24px;height: 21px;,display:inline-block;"></a>
-						<a href="#"><img src="${images}/logo-youtube.png" alt="" style="width: 28px;height: 38px;,display:inline-block;"></a>
+						<%-- <a href="#"><img src="${images}/logo-youtube.png" alt="" style="width: 28px;height: 38px;,display:inline-block;"></a> --%>
 						</li>
 					</ul>
 				</div>
@@ -138,19 +138,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="callbacks_container">
 								<ul class="rslides" id="slider">
 									<li>
-									<img src="${images}/sliderImage3.png" class="img-responsive" alt="" />
+									<img src="${images}/sliderImage5.png" class="img-responsive" alt="" />
 									</li>
 									<li>
-									<img src="${images}/sliderImage2.png" class="img-responsive" alt="" />
+									<img src="${images}/sliderImage2n.png" class="img-responsive" alt="" />
 									</li>
 									<li>
 									<img src="${images}/sliderImage1.png" class="img-responsive" alt="" />
 									</li>
 									<li>
-									<img src="${images}/sliderImage4.png" class="img-responsive" alt="" />
+									<img src="${images}/sliderImage4n.png" class="img-responsive" alt="" />
 									</li>
 									<li>
-									<img src="${images}/sliderImage5.png" class="img-responsive" alt="" />
+									<img src="${images}/sliderImage3.png" class="img-responsive" alt="" />
 									</li>
 								 </ul>
 							</div>
@@ -509,13 +509,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="footer-grids wow bounceIn animated" data-wow-delay="0.4s" >
 						 <div class="footer-grid" style="color: #989aa1;" > 
 						<h4>About us</h4>
-						 <p style="color: #f5f5f5;">Established in 2015, with a team of specialists, we bring extensive knowledge of traditional marketplaces around the world of ecommerce and offers 360 degree services to give your brand worldwide recognition. We help your product reach your customers through different online channels across the globe.</p> <br>
-						<p style="color: #f5f5f5;">Laced with new age technology, we are an international trader, who strive to make all the international brands even more accessible to their customers with our worldwide services. We currently deal with the brands who cater in large assortments of Fashion and Lifestyle, sports & fitness, baby & kids, home decor & furnishing, Footwear, Toys, Kitchen tools & Crockery, Personal Audio, Cosmetics & Personal care and electronic accessories, etc.
+						 <p style="color: #f5f5f5;">Established in 2015, with a team of specialists, we bring extensive knowledge of traditional marketplaces around the world of Ecommerce and offers 360 degree services to give your brand worldwide recognition. We help your product reach your customers through different online channels across the globe.</p> <br>
+						<p style="color: #f5f5f5;">Laced with new age technology, we are an international trader, who strive to make all the international brands even more accessible to their customers with our worldwide services. We currently deal with the brands who cater in large assortments of Fashion and Lifestyle, Sports & Fitness, Baby & Kids, Home Decor & Furnishing, Footwear, Toys, Kitchen tools & Crockery, Personal Audio, Cosmetics & Personal Care and Electronic Accessories, etc.
 						</p> <br>
 						<span class="more" style="color: #f5f5f5;">
 						To make Witch Wand what it is, we are a team of over 35 individuals, specialised in different profiles of the digital world and ecommerce domain globally, committed to the ultimate satisfaction of the end customer, just like you do. We do not compromise with quality, hence ensuring that we take care of all your online selling requirements while you focus on designing, quality, production and inventory of your products range. <br>
-						Whether you are looking for catalogue management, product listings, order management system, integration with different ecommerce platforms, international shipping & logistics, customer service management, payment services or even social media support, we have everything for everyone just under one roof. <br>
-						Buying and selling online made easy - We make it easier by offering a global marketplace connection to help brands reach their customers in any corner of the world.
+						Whether you are looking for Catalogue Management, Product Listings, Order Management system, Inegration with different Ecommerce Platforms, International Shipping & Logistics, Customer Service Management, Payment Services or even Social media support, we have everything for everyone just under one roof. <br>
+						Buying and Selling online made easy - We make it easier by offering a Global marketplace connection to help brands reach their customers in any corner of the world.
 						</span>
 						</div>
 					</div>
@@ -634,13 +634,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 					<div class="clearfix">
 					<div class="container  bounceInRight">
-					<p class="write  wow " data-wow-delay="0.4s">Copyright &copy; 2016  All rights  Reserved |  by &nbsp;<a href="#">Witchwand</a></p>
+					<p class="write  wow " data-wow-delay="0.4s">Copyright &copy; 2016  All rights  Reserved |Template  by &nbsp;<a href="#"> W3layouts</a></p>
 					</div>
 					</div>
 				</div>
 			
 			<!--//end-copyright-section-->
-			<!--start-smoth-scrolling-->
+			<!--start-smooth-scrolling-->
 			
 			<script type="text/javascript" src="${jqueryJs}/move-top.js"></script>
 			<script type="text/javascript" src="${jqueryJs}/easing.js"></script>
@@ -652,17 +652,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									});
 								});
 								</script>
-							<!--start-smoth-scrolling-->
+							<!--start-smooth-scrolling-->
 						<script type="text/javascript">
 									$(document).ready(function() {
-										/*
+										
 										var defaults = {
 								  			containerID: 'toTop', // fading element id
 											containerHoverID: 'toTopHover', // fading element hover id
 											scrollSpeed: 1200,
 											easingType: 'linear' 
 								 		};
-										*/
+										
 										
 										$().UItoTop({ easingType: 'easeOutQuart' });
 										

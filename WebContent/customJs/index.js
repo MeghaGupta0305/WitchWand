@@ -7,14 +7,6 @@ app.controller('customersCtrl', function($scope) {
 
 // Java script 
 $(document).ready(function() {
-	
-	/*$(".scroll").click(function(event){		
-		event.preventDefault();
-		$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-	});*/
-	//$().UItoTop({ easingType: 'easeOutQuart' });
-	
-    // Configure/customize these variables.
     var showChar = 50;  // How many characters are shown by default
     var ellipsestext = "...";
     var moretext = "Show more >";
@@ -23,28 +15,24 @@ $(document).ready(function() {
 
 
     $('.more').each(function() {
-    	
+  	
         var content = $(this).html();
-// alert("content "+content);
         if(content.length > showChar) {
  
             var c = content.substr(0, showChar);
             var h = content.substr(showChar, content.length - showChar);
-// alert("c "+c);
+
             var html = c + '<span class="less">' + ellipsestext+ '&nbsp;</span><span class="morecontent" ><span style=" display: none">' +
             h + '</span>&nbsp;&nbsp;<a href="" class="morelink" style="color: #989aa1;">' + moretext + '</a></span>';
             
-           // alert(html);
-            
             $(this).html("")
-            $(this).html(html);
-            
+            $(this).html(html);           
         }
        
     });
     
     
-    $(".morelink").click(function(){
+   $(".morelink").click(function(){
         if($(this).hasClass("less")) {
             $(this).removeClass("less");
             $(this).html(moretext);//lesstext
@@ -56,13 +44,16 @@ $(document).ready(function() {
         $(this).prev().toggle();
         return false;
     });
-    
-    if(typeof(Storage) != "undefined" && localStorage.getItem("dialogCloseFlag") !="false") {
+   if(localStorage.getItem("dialogCloseFlag")!="false"){
+		  $("#contactDialogDiv1").load("contactDialog");
+		  $("#contactDialogDiv1").dialog('open');
+	  }
+    if(typeof(Storage) !== "undefined" && localStorage.getItem("dialogCloseFlag") !="false") {
 	    // first time loaded!
 		localStorage.setItem("dialogCloseFlag","true");
 	}
   $( "#contactDialogDiv1" ).dialog({
-	    autoOpen: false,
+	    autoOpen: true,
 	    title:'Join Us',
 	    titleIsHtml: true , 
 	    width: 500,
@@ -77,20 +68,14 @@ $(document).ready(function() {
 	  });
 });
 
-
 $(window).load(function() {
 
-	 // if(localStorage.getItem("dialogCloseFlag")!="false"){
+	  if(localStorage.getItem("dialogCloseFlag")!="false"){
 		  $("#contactDialogDiv1").load("contactDialog");
 		  $("#contactDialogDiv1").dialog('open');
-	//  }
-	  
+	  }
+	  	
 });
-
-
-
-
-jquary.ui.css
 
 
 

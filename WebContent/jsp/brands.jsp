@@ -10,7 +10,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <html>
 <head>
 
-<spring:url value="/css" var="mainCss" />
+	<spring:url value="/css" var="mainCss" />
 	<spring:url value="/customJs" var="customJs" />
 	<spring:url value="/js" var="jqueryJs" />
 	<spring:url value="/images" var="images" />
@@ -21,7 +21,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <link href="${mainCss}/bootstrap.css" rel='stylesheet' type='text/css' />
 <link href="${mainCss}/readmore.css" rel='stylesheet' type='text/css' />
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="${jqueryJs}/jquery.min.js"></script>
+
 <!-- Custom Theme files -->
 <link href="${mainCss}/style.css" rel="stylesheet" type="text/css" media="all" />
 <!-- Custom Theme files -->
@@ -56,7 +56,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- // AngularJs -->
 	
 		<!-- Custom Scripts  -->
-<script src="${customJs}/index.js"></script>
+<script type="text/javascript" src="${jqueryJs}/imageloop.js"></script>
+
 <!-- Custom Scripts -->
 	
 	
@@ -142,8 +143,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<li><a href="feature">Services</a></li>
 							</ul> -->
 						</li>
-						<li><a href="single">Blog</a></li>
+						<!-- <li><a href="single">Blog</a></li> -->
 						<li><a href="contact">Contact</a></li>
+						<li><a href="shopNow">Shop now</a>
 
 				</ul>
 				<script type="text/javascript" src="${jqueryJs}/nav.js"></script>
@@ -152,10 +154,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<ul>
 						<li class="icon-top blue-text">
 						<a href="https://www.facebook.com/witchwand/?fref=ts"><img src="${images}/logo-fb.png" alt="" style="width: 22px;height: 20px;,display:inline-block;"></a>
-						<a href="#"><img src="${images}/logo-instagram.png" alt="" style="width: 26px;height: 26px;,display:inline-block;"></a>
+						<%-- <<a href="#"><img src="${images}/logo-instagram.png" alt="" style="width: 26px;height: 26px;,display:inline-block;"></a> --%>
 						<a href="#"><img src="${images}/logo-pinterest.png" alt="" style="width: 25px;height: 24px;,display:inline-block;"></a>
 						<a href="#"><img src="${images}/logo-twitter.png" alt="" style="width: 24px;height: 21px;,display:inline-block;"></a>
-						<a href="#"><img src="${images}/logo-youtube.png" alt="" style="width: 28px;height: 38px;,display:inline-block;"></a>
+						<%-- <a href="#"><img src="${images}/logo-youtube.png" alt="" style="width: 28px;height: 38px;,display:inline-block;"></a> --%>
 						</li>
 					</ul>
 				</div>
@@ -177,16 +179,28 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 					<!-- /head-section -->
 				 <ul id="filters" class="clearfix" wow bounceIn" data-wow-delay="0.4s">
-						<li class="active"><span class="filter" data-filter="app card icon logos web">ALL</span></li>
-						<li><span class="filter" data-filter="app">CATEGORY1</span></li>
-						<li><span class="filter" data-filter="card">CATEGORY2</span></li>
-						<li><span class="filter" data-filter="icon">CATEGORY3</span></li>
-						<li><span class="filter" data-filter="logos">CATEGORY4</span></li>
+						<!-- <li class="active"><span class="filter" data-filter="app card icon logos web">ALL</span></li> -->
+					<!-- 	<li><span class="filter" data-filter="app">Lifestyle</span></li>
+						<li><span class="filter" data-filter="card">watches</span></li>
+						<li><span class="filter" data-filter="icon">Sports</span></li> -->
+						<!-- <li><span class="filter" data-filter="logos">CATEGORY4</span></li> -->
 						</ul>
 					<div id="portfoliolist">
-					<div class="portfolio card mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="card" style="display: inline-block; opacity: 1;">
+					<div id="lifeStyleJpg">
+						
+					</div>
+					<div id="lifeStylePng">
+						
+					</div>
+					<div id="sport">
+						
+					</div>
+					<div id="watch">
+						
+					</div>
+					<%-- <div class="portfolio card mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="card" style="display: inline-block; opacity: 1;">
 						<div class="portfolio-wrapper grid_box">		
-							 <a href="${images}/brandAv_8a.jpg" class="swipebox"  title="Image Title"> <img src="${images}/brandAv_8a.jpg" class="img-responsive" alt=""><span class="zoom-icon"> </span> </a> </a>
+							<a href="${images}/brandAv_8a.jpg" class="swipebox"  title="Image Title"> <img src="${images}/brandAv_8a.jpg" class="img-responsive" alt=""><span class="zoom-icon"> </span> </a> </a>
 
 		                </div>
 					</div>				
@@ -245,7 +259,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							 <a href="${images}/brandTrespass.jpg" class="swipebox"  title="Image Title"> <img src="${images}/brandTrespass.jpg" class="img-responsive" alt=""><span class="zoom-icon"></span> </a>
 
 		                </div>
-					</div>
+					</div> --%>
 					<%-- <div class="portfolio icon mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="icon" style="display: inline-block; opacity: 1;">
 						<div class="portfolio-wrapper grid_box">		
 							 <a href="${images}/s5.jpg" class="swipebox"  title="Image Title"> <img src="${images}/s5.jpg" class="img-responsive" alt=""><span class="zoom-icon"></span> </a>
@@ -395,7 +409,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					
 					<div class="clearfix">
 					<div class="container  bounceInRight">
-					<p class="write  wow " data-wow-delay="0.4s">Copyright &copy; 2016  All rights  Reserved |  by &nbsp;<a href="#">Witchwand</a></p>
+					<p class="write  wow " data-wow-delay="0.4s">Copyright &copy; 2016  All rights  Reserved |Template  by &nbsp;<a href="#"> W3layouts</a></p>
 					</div>
 					
 				</div>
@@ -427,13 +441,23 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										*/
 										
 										$().UItoTop({ easingType: 'easeOutQuart' });
+										//aboutUsScroll(null);
 										
+									imageLoop();
 									});
+								
 								function aboutUsScroll(obj){
 									alert(obj+"TEST");
 										obj.load().attr("href", "#about").css("scroll");
 										return true;
 									}
+								
+							/* imageLoop	 */
+								
+							/* jQuery */
+								
+
+							
 								</script>
 		<a href="#head" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 

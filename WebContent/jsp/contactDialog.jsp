@@ -5,12 +5,12 @@
 		<form id ="contactDialogForm">
 			<input id="name" type="text"  placeholder="Name" required=" ">
 			<input id="phone" type="text"   placeholder="phone"  onkeypress="return IsNumeric(event);" ondrop="return false;" onpaste="return false;" required=" ">
-			<span id="error" style="color: Red; display: none">* Input digits()</span>
+			<span id="error" style="color: Red; display: none">* Input digits(10)</span>
 			</br>
 			<input id="email" type="text"  class='email' placeholder="E-mail" required=" ">
 			<!--  -textarea placeholder="Message"  required=" "></textarea-->
 			</br>
-			<input  type="submit" value="Now!" style=" position: initial;border-radius: 1.3em;">
+			<input type="submit" value="Now" >
 		</form>
 	</div>
 		<script>
@@ -27,7 +27,7 @@
 					  		"email":$("#contactDialogDiv #email").val(),
 					  		"phone":$("#contactDialogDiv #phone").val()
 			  };
-				//alert(JSON.stringify(customer));
+				alert(JSON.stringify(customer));
 				 $( "#contactDialogDiv1" ).dialog("close");
 				 $.ajax({
 						type : "POST",
@@ -38,16 +38,16 @@
 						dataType : 'JSON',
 						cache: false, // Force requested pages not to be cached by the browser
 						success : function(data) {
-							//alert("Thank you");
+							alert("Thank you");
 							
 						},
 						error : function(xhr, status, error) {
-							// alert(xhr.responseText);
+							 alert(xhr.responseText);
 							 
 						
 						},
 						done : function(e) {
-							//alert("DONE");
+							alert("DONE");
 						}
 					});
 				 event.preventDefault();

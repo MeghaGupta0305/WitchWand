@@ -85,8 +85,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<li><a href="services">Services</a></li>
 							</ul> -->
 						</li>
-					<li><a href="single">Blog</a></li>
+					<!-- <li><a href="single">Blog</a></li> -->
 					<li><a href="contact">Contact</a></li>
+					<li><a href="shopNow">Shop now</a>
 
 				</ul>
 				<script type="text/javascript" src="${jqueryJs}/nav.js"></script>
@@ -96,10 +97,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<ul>
 						<li class="icon-top blue-text">
 						<a href="https://www.facebook.com/witchwand/?fref=ts"><img src="${images}/logo-fb.png" alt="" style="width: 22px;height: 20px;,display:inline-block;"></a>
-						<a href="#"><img src="${images}/logo-instagram.png" alt="" style="width: 26px;height: 26px;,display:inline-block;"></a>
+						<%-- <a href="#"><img src="${images}/logo-instagram.png" alt="" style="width: 26px;height: 26px;,display:inline-block;"></a> --%>
 						<a href="#"><img src="${images}/logo-pinterest.png" alt="" style="width: 25px;height: 24px;,display:inline-block;"></a>
 						<a href="#"><img src="${images}/logo-twitter.png" alt="" style="width: 24px;height: 21px;,display:inline-block;"></a>
-						<a href="#"><img src="${images}/logo-youtube.png" alt="" style="width: 28px;height: 38px;,display:inline-block;"></a>
+						<%-- <a href="#"><img src="${images}/logo-youtube.png" alt="" style="width: 28px;height: 38px;,display:inline-block;"></a> --%>
 						</li>
 					</ul>
 				</div>
@@ -111,7 +112,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </div>
 <!--start-features-->	
 	<div class="some">
-		 <h3>Say Thanks For Awesome Features</h3>
+		<!--  <h3>Say Thanks For Awesome Features</h3> -->
 		 <div class="service-section">
 			<div class="container">
 				
@@ -124,9 +125,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</div>
 							<div class="service-icon-heading">
 								<h4>Catalogue Management</h4>
-								<span class="more">
+								<!-- <span class="more"> -->
 								Need help with a  well-organized, information-rich catalogue for your customers, that can help
-								them taking positive buying decisions? We are here to help.
+								them taking positive buying decisions. We are here to help.
 								Our cataloguing software is in industry-standard format that is optimized for search engines and 
 								backed up with metadata to give you several distinct advantages such as creating powerful
 								 marketing campaigns, informative reports for your inventory and mapping required attributes
@@ -144,7 +145,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</div>
 							<div class="service-icon-heading">
 								<h4>Markets Insights</h4>
-								<span class="more">
+								<!-- <span class="more"> -->
 								Firms initially entering internatio markets will be more concerned with learning about 
 								international markets. It consists of many things like Country compliances, 
 								Products Prioritization, Fast moving Products analysis, Market size, Local 
@@ -163,7 +164,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</div>
 							<div class="service-icon-heading">
 								<h4>Order Management System</h4>
-								<span class="more">
+								<!-- <span class="more"> -->
 								We ensure to integrate relevant elements of business; from online store to manage your 
 								inventory, from payment to shipping & logistics and local labelling requirements with step by 
 								step tracking of the order status process. 
@@ -183,7 +184,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</div>
 							<div class="service-icon-heading">
 								<h4> International Shipping & Logistics </h4>
-								<span class="more">
+								<!-- <span class="more"> -->
 								Is cross border delivery in time a big challenge for you? We make it easier by exercising 
 								specialised network of 3rd party logistics partners for quick pickup and drop facility from 
 								manufacturer's warehouse to the end customer including real time tracking of shipments. 
@@ -204,7 +205,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</div>
 							<div class="service-icon-heading">
 								<h4>Customer Service Management</h4>
-								<span class="more">
+								<!-- <span class="more"> -->
 								We love serving our global partners to build an ongoing relationship between them and 
 								their customers. We also understand the crucial 'social media' scenario and aim to address 
 								all the queries and concerns in time the moment they surface.
@@ -222,7 +223,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</div>
 							<div class="service-icon-heading">
 								<h4>Payment Services</h4>
-								<span class="more">
+								<!-- <span class="more"> -->
 								We understand your concerns about payments and hassle free documentation and consolidation 
 								process for all the transactions. So donot you worry, we have got you covered. We handle all the 
 								costs related to export (shipping, duties and repackaging) and track payment cycle of different 
@@ -246,7 +247,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</div>
 							<div class="service-icon-heading">
 								<h4> Digital Marketing </h4>
-								<span class="more">
+								<!-- <span class="more"> -->
 								Want to go 'social' but donot know how to? We can help you with our dedicated social 
 								media team that could not only take you through the basics to help you find the best 
 								social media platforms to increase your visibility, but also could handle your social media for 
@@ -264,69 +265,69 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 		<div class="features-section text-center">
 			<div class="container">
-					<%-- <div class="Awesome-features">
+					 <div class="Awesome-features">
 						 <h3>So Many Features</h3>
 						  <div class="awesome-grids second">
 						 	<div class="col-md-4 awesome-grid wow bounceIn" data-wow-delay="0.4s">
 						 		<i class="msg"></i>
+								<h4>Easy & Hassle Free </h4>
+								<!-- <p>Nullam vitae sollicitudineros. Cras varius vehicula velit, ac congue quam dictum sed</p> -->
+
+							</div>
+							<div class="col-md-4 awesome-grid wow bounceIn" data-wow-delay="0.4s">
+						 		<i class="load"></i>
+								<h4>Global Market Connect</h4>
+								<!-- <p>Nullam vitae sollicitudineros. Cras varius vehicula velit, ac congue quam dictum sed</p>	 -->
+
+							</div>
+							<div class="col-md-4 awesome-grid wow bounceIn" data-wow-delay="0.4s">
+						 		<i class="msg"></i>
 								<h4>Responsive Layout</h4>
-								<p>Nullam vitae sollicitudineros. Cras varius vehicula velit, ac congue quam dictum sed</p>
+								<!-- <p>Nullam vitae sollicitudineros. Cras varius vehicula velit, ac congue quam dictum sed</p> -->
 
 							</div>
-							<div class="col-md-4 awesome-grid wow bounceIn" data-wow-delay="0.4s">
-						 		<i class="flag"></i>
-								<h4>Easy to Customize</h4>
-								<p>Nullam vitae sollicitudineros. Cras varius vehicula velit, ac congue quam dictum sed</p>	
-
-							</div>
-							<div class="col-md-4 awesome-grid wow bounceIn" data-wow-delay="0.4s">
-						 		<i class="ok"></i>
-								<h4>Help & Support</h4>
-								<p>Nullam vitae sollicitudineros. Cras varius vehicula velit, ac congue quam dictum sed</p>
-
-							</div>
-						 	<div class="clearfix"></div>
+						 	<div class="clearfix" style="height: 221px;"></div>
 						 </div>
 						 
 						 <div class="awesome-grids">
 						 	<div class="col-md-4 awesome-grid wow bounceIn" data-wow-delay="0.4s">
-						 		<i class="eye"></i>
-								<h4>Beautiful design</h4>
-								<p>Nullam vitae sollicitudineros. Cras varius vehicula velit, ac congue quam dictum sed</p>
+						 		<i class="flag"></i>
+								<h4>Integration</h4>
+								<!-- <p>Nullam vitae sollicitudineros. Cras varius vehicula velit, ac congue quam dictum sed</p> -->
 							</div>
 							<div class="col-md-4 flat-phone text-center span_66 wow bounceIn" data-wow-delay="0.4s">
-								<img src="${images}/flat-phone.jpg" alt="" />
+								<img src="${images}/featurelogo.jpg" alt="" />
 							</div>
 
 							<div class="col-md-4 awesome-grid wow bounceIn" data-wow-delay="0.4s">
-						 		<i class="load"></i>
-								<h4>Auto Reloading</h4>
-								<p>Nullam vitae sollicitudineros. Cras varius vehicula velit, ac congue quam dictum sed</p>
+						 		<i class="flag"></i>
+								<h4>100% Shipments Ensured</h4>
+								<!-- <p>Nullam vitae sollicitudineros. Cras varius vehicula velit, ac congue quam dictum sed</p> -->
 							</div>
 						 	<div class="clearfix"></div>
 						 </div>
 						 <div class="awesome-grids second">
 						 	<div class="col-md-4 awesome-grid wow bounceIn" data-wow-delay="0.4s">
-						 		<i class="msg"></i>
-								<h4>Responsive Layout</h4>
-								<p>Nullam vitae sollicitudineros. Cras varius vehicula velit, ac congue quam dictum sed</p>
+						 		<i class="ok"></i>
+								<h4>Help & Support 24/7</h4>
+								<!-- <p>Nullam vitae sollicitudineros. Cras varius vehicula velit, ac congue quam dictum sed</p> -->
 
 							</div>
 							<div class="col-md-4 awesome-grid wow bounceIn" data-wow-delay="0.4s">
-						 		<i class="flag"></i>
-								<h4>Easy to Customize</h4>
-								<p>Nullam vitae sollicitudineros. Cras varius vehicula velit, ac congue quam dictum sed</p>	
+						 		<i class="eye"></i>
+								<h4>Real Time Tracking & Monitoring of Goods in Transhipment</h4>
+								<!-- <p>Nullam vitae sollicitudineros. Cras varius vehicula velit, ac congue quam dictum sed</p>	 -->
 
 							</div>
 							<div class="col-md-4 awesome-grid wow bounceIn" data-wow-delay="0.4s">
 						 		<i class="ok"></i>
-								<h4>Help & Support</h4>
-								<p>Nullam vitae sollicitudineros. Cras varius vehicula velit, ac congue quam dictum sed</p>
+								<h4>Market Insights & Analyticst</h4>
+								<!-- <p>Nullam vitae sollicitudineros. Cras varius vehicula velit, ac congue quam dictum sed</p> -->
 
 							</div>
 						 	<div class="clearfix"></div>
 						 </div>
-					</div> --%>
+					</div>
 			</div>
 		</div>
 				<!--/start-footer-section-->
@@ -384,7 +385,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</div>
 					<div class="clearfix">
 					<div class="container  bounceInRight">
-					<p class="write  wow " data-wow-delay="0.4s">Copyright &copy; 2016  All rights  Reserved |  by &nbsp;<a href="#">Witchwand</a></p>
+					<p class="write  wow " data-wow-delay="0.4s">Copyright &copy; 2016  All rights  Reserved |Template  by &nbsp;<a href="#"> W3layouts</a></p>
 					</div>
 					</div>
 				</div>

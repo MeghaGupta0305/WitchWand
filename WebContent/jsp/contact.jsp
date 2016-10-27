@@ -94,8 +94,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<li><a href="Services">Services</a></li>
 							</ul>
 						</li>
-					<li><a href="single">Blog</a></li>
+					<!-- <li><a href="single">Blog</a></li> -->
 					<li><a href="contact">Contact</a></li>
+					<li><a href="shopNow">Shop now</a>
 
 				</ul>
 				<script type="text/javascript" src="${jqueryJs}/nav.js"></script>
@@ -104,10 +105,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<ul>
 						<li class="icon-top blue-text">
 						<a href="https://www.facebook.com/witchwand/?fref=ts"><img src="${images}/logo-fb.png" alt="" style="width: 22px;height: 20px;,display:inline-block;"></a>
-						<a href="#"><img src="${images}/logo-instagram.png" alt="" style="width: 26px;height: 26px;,display:inline-block;"></a>
+						<%-- <a href="#"><img src="${images}/logo-instagram.png" alt="" style="width: 26px;height: 26px;,display:inline-block;"></a> --%>
 						<a href="#"><img src="${images}/logo-pinterest.png" alt="" style="width: 25px;height: 24px;,display:inline-block;"></a>
 						<a href="#"><img src="${images}/logo-twitter.png" alt="" style="width: 24px;height: 21px;,display:inline-block;"></a>
-						<a href="#"><img src="${images}/logo-youtube.png" alt="" style="width: 28px;height: 38px;,display:inline-block;"></a>
+						<%-- <a href="#"><img src="${images}/logo-youtube.png" alt="" style="width: 28px;height: 38px;,display:inline-block;"></a> --%>
 						</li>
 					</ul>
 				</div>
@@ -262,7 +263,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 					<div class="clearfix">
 					<div class="container  bounceInRight">
-					<p class="write  wow " data-wow-delay="0.4s">Copyright &copy; 2016  All rights  Reserved |  by &nbsp;<a href="#">Witchwand</a></p>
+					<p class="write  wow " data-wow-delay="0.4s">Copyright &copy; 2016  All rights  Reserved | Template by &nbsp;<a href="#"> W3layouts</a></p>
 					</div>
 					</div>
 				</div>

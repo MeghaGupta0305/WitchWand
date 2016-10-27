@@ -1,4 +1,4 @@
-var app = angular.module('contactDailogApp', ['ngDialog']);
+/*var app = angular.module('contactDailogApp', ['ngDialog']);
 console.log('in js ');
 app.controller('contactDailogCtrl', function ($scope, ngDialog) {
 	$scope.openContactForm = function() {
@@ -14,4 +14,4 @@ app.controller('contactDailogCtrl', function ($scope, ngDialog) {
 			}
 		);
 	};
-});
+});*/
